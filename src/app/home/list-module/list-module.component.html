@@ -1,0 +1,108 @@
+ <!-- <div class="container-fluid page">
+    <div class="d-flex page__box p-3 mt-2"></div>
+    <div class="page__content shadow p-3 position-relative">
+      <section id="content">
+        <main>
+          <ul class="box-info">
+            <li>
+              <button mat-raised-button color="primary" class='bx bxs-bulb'  >
+               
+              </button> 
+                
+              <span class="text">
+                <h3>Lighting</h3>
+                <label class="switch">
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+                </label>
+              </span>
+              <div  *ngIf="theme === 'flip'" 
+            class="flip-button"
+ (click)="clickButton($event)" 
+[ngClass]="{'clicked': selected}"
+>   
+  <div class="flip-button-inner">
+    <div class="flip-button-front">
+      {{ labelOff }}
+    </div>
+    <div class="flip-button-back">
+      {{ labelOn }}
+    </div>
+  </div>
+</div>
+ </li>
+          
+            <li>
+              <button mat-raised-button color="white" class='bx bxs-cross'  >
+               
+              </button> 
+           <span class="text">
+             <h3>Air Conditioner</h3>
+             <label class="switch">
+               <input type="checkbox">
+               <span class="slider round"></span>
+             </label>
+           </span>
+         </li>
+          </ul>
+        </main>
+         
+      </section>
+      
+   
+      </div>
+  </div>
+
+-->
+
+<!-- 
+       <h2>MQTT TEST</h2>
+
+        <button mat-raised-button (click)="run()">RUN</button>
+        <button mat-raised-button (click)="stop()">STOP</button>
+        <label>{{label}}</label>  -->
+
+
+        <div class="container-fluid page">
+          <div class="d-flex page__box p-3 mt-2"> Etage 1</div>
+          <div class="page__content shadow p-3 position-relative">
+            <section id="content">
+              <main>
+                <ul class="box-info">
+                  <li>
+                    <button mat-raised-button color="primary" class='bx bxs-bulb'  >
+                     
+                    </button> 
+                      
+                    <span class="text">
+                      <h3>Lighting</h3>
+                      <label class="switch" >
+                        <input type="checkbox" (click)="clickButton($event)"
+                        [ngClass]="{'clicked': selected}" ngDefaultControl>
+                        <span class="slider round"></span>
+                      </label>
+                    </span>
+                  </li>
+                
+                  <li>
+                    <button mat-raised-button color="white" class='bx bxs-cross'  >
+                     
+                    </button> 
+                 <span class="text">
+                   <h3>Air Conditioner</h3>
+                   <label class="switch">
+                     <input type="checkbox">
+                     <span class="slider round"></span>
+                   </label>
+                 </span>
+               </li>
+                </ul>
+              </main>
+               
+            </section>
+            
+         
+            </div>
+        </div>
+        
+             

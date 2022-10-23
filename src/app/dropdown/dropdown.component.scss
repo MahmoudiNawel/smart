@@ -1,0 +1,91 @@
+.page {
+  color: white;
+  padding: 0 1rem;
+  background: #f1f5f9;
+  //background-color: white;
+  &__box {
+    min-height: 120px;
+    background: #7292c5;
+    margin: 0 -1rem;
+    font-size: 36px;
+   // background-color: #2196F3;
+  }
+  &__content {
+    min-height: calc(100vh - 178px);
+    border-radius: 10px;
+    margin-top: -2rem;
+    background: #E6ECED;
+    background-color: white;
+    //color: black;
+    font-size: 2rem;
+    &-data {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .login-page {
+//   top: 0;
+//   //margin: 0;
+//   padding: 0;
+//   width: 100vw;
+//   min-height: 100vh;
+//   display: block;
+//   //background: transparent;
+//   //background : transparent ;
+//   //background-color: light;
+//   background-image: url("/assets/smart2.jpg");
+//   //background-position: center;
+//  // background-repeat: no-repeat;
+//   background-size: contain;
+//   overflow: hidden;
+// }
+
+// mat-card {
+//   background: transparent;
+//   width: 35%;
+//   height: 50%;
+//   margin: 10% auto;
+//   border-radius: 12px;
+// }
+// mat-form-field, mat-checkbox {
+//   width: 80%;
+//   display: block;
+//   margin: auto;
+// }
+// mat-card-content {
+//   margin-top: 20px;
+//   margin: 20px auto;
+// }
+
+// .login-button {
+//   margin-top: 20px;
+//   display: block;
+//   width: 80%;
+//   margin: 20px auto;
+// }
+// .refe{
+//   text-align: left;
+//   margin-top: -10px;
+//   color: brown;
+// }

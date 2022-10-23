@@ -1,0 +1,83 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="container-fluid page">
+  <div class="d-flex page__box p-3 mt-2">Etage 1 </div>
+  <div class="page__content shadow p-3 position-relative">
+    <div >
+      <br>
+      <table class="table
+      ">
+        <thead>
+          <tr>
+            <!-- <th scope="col"></th> -->
+            <th scope="col">ADD IP</th>
+            <th scope="col">Name</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let res1 of Modules">
+          
+            <td>{{res1.AddIP}}</td>
+            <td>{{res1.nom}}</td>
+            <td> 
+              <button (click)="openDialog()"  mat-fab type="button" color="primary"   matTooltip="Edit Task" [matTooltipPosition]="'above'"  >
+                <!-- <i class="material-icons">edit</i> -->
+                <mat-icon>add</mat-icon>
+            </button>
+              <button (click)="delete(res1.AddIP)" style="margin-left: 20px; color:warn" mat-fab  type="button"  matTooltip="Edit Task" [matTooltipPosition]="'above'" >
+              <!-- <i class="material-icons">edit</i> -->
+              <mat-icon>delete</mat-icon>
+          </button> 
+         </td>
+          </tr>
+        </tbody>
+      </table>
+     
+    </div>
+</div>
+    
+         
+  
+
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+       
+  
+  
+   -->

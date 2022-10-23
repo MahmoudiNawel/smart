@@ -1,0 +1,63 @@
+.login-page {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    display: flexbox;
+    background: transparent;
+    background : transparent ;
+    //background-color: light;
+    background-position: center;
+    //background-image: url("/assets/smart2.jpg");
+    background-size: contain;
+    overflow: hidden;
+    //color: aliceblue;
+  }
+  
+  mat-card {
+    background: transparent;
+    width: 35%;
+    height: 50%;
+    margin: 10% auto;
+    border-radius: 12px;
+    //color: beige;
+  
+  }
+  mat-form-field, mat-checkbox {
+    width: 80%;
+    display: block;
+    margin: auto;
+   
+  }
+  mat-card-content {
+    margin-top: 20px;
+    margin: 20px auto;
+    color: aliceblue;
+  }
+  
+  .login-button {
+    margin-top: 20px;
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+  }
+  .refe{
+    text-align: left;
+    margin-top: -10px;
+    color: brown;
+  }
+.card{
+    font-size: large;
+    font-size: 10px;
+    color: rgb(28, 114, 189);
+ 
+  }
+  mat-form-field, :placeholder-shown{
+    width: 80%;
+    display: block;
+    margin: auto;
+    color: #000;
+   
+  }
+ 

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+.card-body {
+  --start-color: #0575E6;
+  --end-color: #021B79;
+  --p-color: #929DA6;
+  --button-background: #0575E6;
+  --input-background: #e4eff8;
+  --radius-50: 50px;
+  --padding-15: 15px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: var(--start-color);
+  background: linear-gradient(to right, var(--start-color), var(--end-color)) no-repeat;
+  font-family: 'Nunito', sans-serif;
+}

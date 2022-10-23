@@ -1,0 +1,68 @@
+<h1 mat-dialog-title style="text-align: center">Add Module Form </h1>
+
+<div mat-dialog-content>
+  <form [formGroup]="form" 
+  name="form"
+  (ngSubmit)="form.valid && oncreate()">
+    <mat-form-field class="full-width-input">
+      <mat-label>ADD MODEL</mat-label>
+      <mat-select formControlName="etage" placeholder="Select " name="education_level" (selectionChange)="educationLevelChangeAction(education_level)" [(ngModel)]="education_level" >
+        <mat-option *ngFor="let education of educationList" [value]="education.educationLevelName" >{{ education.educationLevelName }}</mat-option>
+      </mat-select>
+  
+    </mat-form-field>
+    <mat-form-field class="full-width-input">
+      <mat-label>Bureau </mat-label>
+      <mat-select formControlName="etage"  placeholder="Select" name="exam_title" [(ngModel)]="exam_title">
+        <mat-option *ngFor="let degreeTitle of degreeTitleList" [value]="degreeTitle">
+          {{degreeTitle}}
+        </mat-option>
+      </mat-select>
+      <!-- <mat-error *ngIf="isFieldInvalid('etage')">
+        Please inform your user name
+      </mat-error> -->
+    </mat-form-field>
+
+
+
+
+    <mat-form-field class="full-width-input">
+      <input matInput placeholder="IP Add" formControlName="AddIP" required>
+      <mat-error *ngIf="isFieldInvalid('AddIP')">
+        Please inform your Add IP
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field class="full-width-input">
+      <input matInput type="text" placeholder="Name" formControlName="nom" required>
+      <mat-error *ngIf="isFieldInvalid('nom')">
+        Please inform your Name
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field class="full-width-input">
+      <mat-label>Choose  Sensor </mat-label>
+      <mat-select multiple>
+        <mat-option *ngFor="let cap of Capteur" [value]="skill">{{cap}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <div mat-dialog-action [align]="'end'">
+      <button  class="login-button" mat-raised-button color="primary" type="submit" >Add</button>
+      <button  class="login-button" mat-raised-button color="warn" mat-dialog-close="true" type="reset" >Close</button>
+    </div>
+   
+    <!-- <br>
+    <button mat-raised-button color="primary" type="submit">Submit</button> -->
+  </form>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+

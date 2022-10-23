@@ -1,0 +1,69 @@
+.example-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.example-form > * {
+    width: 100%;
+}
+* {
+
+	margin: 0;
+	padding: 0;	
+	//font-family: Raleway, sans-serif;
+  
+}
+
+.close{
+    width: 100%;
+}
+mat-card {
+    max-width: 400px;
+    height: max-content;
+    margin: 2em auto;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+ 
+  }
+  .signin-content {
+    padding: 60px 1rem;
+    //background-image: url(back.jpg);
+    background-size: cover;
+    background-attachment:scroll;
+    border-radius: 40px;
+    border: 0px;
+  }
+  .full-width-input {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    margin: auto;
+    width: 100%;
+    margin-top: 1px;
+    border: 0px;
+    //border-bottom: 1px solid black;
+  }
+  .btn {
+   margin-right: 0;
+   display: flex;
+   margin: auto;
+   background-color: var(--button-background);
+   color: #fff;
+   border: unset;
+   width: 120px;
+   border-radius: var(--radius-50);
+   padding: var(--padding-15);
+   margin-left: 10px;
+  // border: unset;
+  cursor: pointer;
+   
+  }
+
+
+  // @media screen and (max-width: 720px) {
+  //   .mat-card {
+  //     margin-right: 20px !important;
+  //     margin-left: 20px !important;
+  //     padding: var(--padding-15);
+  //   }
+  // }

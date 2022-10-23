@@ -1,0 +1,46 @@
+.login-page {
+  top: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  display: block;
+  background: transparent;
+  background: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+mat-card {
+  background: transparent;
+  width: 35%;
+  height: 50%;
+  margin: 10% auto;
+  border-radius: 12px;
+}
+
+mat-form-field, mat-checkbox {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+mat-card-content {
+  margin-top: 20px;
+  margin: 20px auto;
+}
+
+.login-button {
+  margin-top: 20px;
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.refe {
+  text-align: left;
+  margin-top: -10px;
+  color: brown;
+}
+/*# sourceMappingURL=sign-in.component.css.map */
